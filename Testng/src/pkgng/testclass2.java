@@ -8,6 +8,7 @@ public class testclass2 {
 	public void test1() {
 		
 		System.out.println("test1 regression");
+		System.out.println("test2 regression");
 		
 	}
 }
