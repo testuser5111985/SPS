@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="9" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62" started-at="2019-01-22T08:06:25Z" finished-at="2019-01-22T08:06:25Z">
+    <groups>
+      <group name="Regression">
+        <method signature="testclass.tc1()[pri:0, instance:pkgng.testclass@7823a2f9]" name="tc1" class="pkgng.testclass"/>
+        <method signature="testclass.tc2()[pri:0, instance:pkgng.testclass@7823a2f9]" name="tc2" class="pkgng.testclass"/>
+        <method signature="testclass.tc3()[pri:0, instance:pkgng.testclass@7823a2f9]" name="tc3" class="pkgng.testclass"/>
+        <method signature="testclass2.test1()[pri:0, instance:pkgng.testclass2@5c7fa833]" name="test1" class="pkgng.testclass2"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="62" started-at="2019-01-22T08:06:25Z" finished-at="2019-01-22T08:06:25Z">
+      <class name="pkgng.testclass2">
+        <test-method status="PASS" signature="test1()[pri:0, instance:pkgng.testclass2@5c7fa833]" name="test1" duration-ms="1" started-at="2019-01-22T08:06:25Z" finished-at="2019-01-22T08:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- pkgng.testclass2 -->
+      <class name="pkgng.testclass">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:pkgng.testclass@7823a2f9]" name="tc1" duration-ms="11" started-at="2019-01-22T08:06:25Z" finished-at="2019-01-22T08:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:pkgng.testclass@7823a2f9]" name="tc2" duration-ms="3" started-at="2019-01-22T08:06:25Z" finished-at="2019-01-22T08:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc3()[pri:0, instance:pkgng.testclass@7823a2f9]" name="tc3" duration-ms="2" started-at="2019-01-22T08:06:25Z" finished-at="2019-01-22T08:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+      </class> <!-- pkgng.testclass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

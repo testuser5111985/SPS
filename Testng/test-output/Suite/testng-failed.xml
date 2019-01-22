@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="pkgng.class1">
+        <methods>
+          <include name="trending"/>
+          <include name="base"/>
+          <include name="close1"/>
+        </methods>
+      </class> <!-- pkgng.class1 -->
+      <class name="pkgng.class2">
+        <methods>
+          <include name="base"/>
+          <include name="close1"/>
+          <include name="subs"/>
+        </methods>
+      </class> <!-- pkgng.class2 -->
+      <class name="pkgng.class3">
+        <methods>
+          <include name="base"/>
+          <include name="close1"/>
+          <include name="play"/>
+        </methods>
+      </class> <!-- pkgng.class3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
